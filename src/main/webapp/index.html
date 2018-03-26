@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114604257-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114604257-1');
+    </script>
+    <title>Rix</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="No-Cache">
+    <meta name="naver-site-verification" content="2b06917c61d75580b0e374db660ac553c812e207"/>
+    <meta name="description" content="세계 최초의, 고유자산을 갖는 탈중앙화 AI 암호화화폐 투자 플랫폼">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rix">
+    <meta property="og:url" content="rix.foundation">
+    <meta property="og:description" content="여기를 눌러 링크를 확인하세요.">
+    <meta property="og:image" content="images/logo.jpg">
+    <link rel="shortcut icon" href="http://rix.foundation/favicon32.ico?v=2">
+    <link rel="icon" sizes="16x16 32x32" href="favicon32.ico?v=2">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/clipboard.min.js"></script>
+</head>
+
+<body>
+<style>
+    .div-popup {
+        position: fixed;
+        left: 50%;
+        margin-left: -15%; /* half of width */
+        top: 20%;
+        margin-top: -150px; /* half of height */
+    }
+</style>
+<div class="main main_bg">
+    <div class="header">
+        <div class="content hCenter">
+            <a href="/"><img src="images/logo.svg" class="logo"/></a>
+            <div class="menu">
+                <a href="#rix"><span>RIX</span></a>
+                <a href="#ourteam" class="ourteam"><span data-langNum="1">TEAM</span></a>
+                <a href="#roadmap"><span data-langNum="2">ROAD MAP</span></a>
+                <a href="#ico"><span data-langNum="3">ICO</span></a>
+                <a href="https://medium.com/@contact_1269" target="_blank"><span data-langNum="4">BLOG</span></a>
+                <a href="/RIX_pre-sale_whitepaper_en_v2.02.pdf" target="_blank" class="link-whitepaper"><span data-langNum="5">WHITE PAPER</span></a>
+						<span>
+							<select name="language">
+								<option value="kr" selected>한글</option>
+								<option value="en">English</option>
+								<option value="zhCN">中文简体</option>
+								<option value="zhTW">中文繁體</option>
+								<option value="ja">日本語</option>
+								<option value="es">Español</option>
+								<option value="fr">Français</option>
+								<option value="de">Deutsch</option>
+								<option value="ru">русский</option>
+							</select>
+						</span>
+            </div>
+            <img src="images/btn_menu.svg" class="btn_menu"/>
+        </div>
+    </div>
+
+    <div class="detail hCenter">
+        <div class="text_1">
+            <span data-langNum="14">The world first decentrlized AI cryptocurrency investment platform With the intrinsic asset.</span>
+        </div>
+        <div class="buy content-kr" style="display: none;">
+            <div class="text_3" style="height: 100%;">
+                <div><span data-langNum="81">Rix 토큰을 구매해 주셔서 감사합니다.</span></div>
+                <div class="hl"><span data-langNum="82">프리세일 종료.</span></div>
+                <div class="remainDay" style='float: left; font-size: 18px; font-family: "nts_bold"'>
+                    ICO 시작 -
+                </div>
+                <div class="timer2">
+                    <div class="countdown-container">
+                    </div>
+                </div>
+                <script type="text/template" class="timer-template">
+                    <div class="time2 <%= label %>" style="display: inline-block; font-size: 18px;">
+                        <span class="counting next"><%= next %></span>
+                    </div>
+                </script>
+                <!--<div><span data-langNum="84">프리세일 보너스 5% (100,000/1ETH → 105,000/1ETH)</span></div>-->
+                <div><a href="https://medium.com/@contact_1269/%EA%B3%B5%EC%A7%80-rix-%ED%94%84%EB%A6%AC%EC%84%B8%EC%9D%BC-%EC%B0%B8%EC%97%AC%EB%B0%A9%EB%B2%95-step-by-step-guide-7e5125d7975e" target="_blank" style="color: blue"><span>ICO 참여방법</span></a></div>
+            </div>
+            <div class="text_4">
+                <span>ICO 대기중</span>
+                <img src="images/icon_coin.svg" style="left: 240px;"/>
+            </div>
+            <div class="text_5">
+                <div class="box btn pay" ><img src="images/icon_go.svg"/></div>
+                <div class="row" style="margin-top: 9px;"><span data-langNum="81">ICO 목표금액</span><span>40,000ETH</span></div>
+                <div class="row"><span data-langNum="81">현재 모금액</span><span class="fundRasing">0ETH</span></div>
+                <div class="row"><span>후원자</span><span class="rixer">0</span></div>
+            </div>
+        </div>
+        <div class="buy content">
+            <div class="text_3" style="height: 100%;">
+                <div><span data-langNum="81">Thank you for purchasing Rix token</span></div>
+                <div class="hl"><span data-langNum="82">Pre-sale closed</span></div>
+                <div class="remainDay" style='float: left; font-size: 18px; font-family: "nts_bold"'>
+                    ICO will open in&nbsp;
+                </div>
+                <div class="timer2">
+                    <div class="countdown-container">
+                    </div>
+                </div>
+                <script type="text/template" class="timer-template">
+                    <div class="time2 <%= label %>" style="display: inline-block; font-size: 18px;">
+                        <span class="counting next"><%= next %></span>
+                    </div>
+                </script>
+                <!--<div><span data-langNum="84">Pre sale bonus 5% (100,000/1ETH → 105,000/1ETH)</span></div>-->
+                <div><div><a href="https://medium.com/@contact_1269/how-to-participate-in-the-rix-pre-sale-step-by-step-guide-df5ba0a1902a" style="color: blue" target="_blank"><span>How to participate RIX ICO</span></a></div></div>
+            </div>
+            <div class="text_4">
+                <span>Pre-sale closed</span>
+                <img src="images/icon_coin.svg"/>
+            </div>
+            <div class="text_5">
+                <div class="box btn pay"><img src="images/icon_go.svg"/></div>
+                <div class="row" style="margin-top: 9px;"><span data-langNum="81">ICO goal : </span><span>40,000ETH</span></div>
+                <div class="row"><span data-langNum="81">Fund raised : </span><span class="fundRasing">0ETH</span></div>
+                <div class="row"><span>Rixer : </span><span class="rixer">0</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="pain_point hCenter">
+        <div class="row"><span data-langNum="20">Pain point</span></div>
+        <div class="row"><span data-langNum="21">In the Cryptocurrency market,<br/>it is not easy for private investors to achieve their target rate of return.</span></div>
+        <div class="row"><span data-langNum="22">Notwithstanding the fact that Bitcoin’s value has grown more than 700% over the past year,</span></div>
+        <div class="row"><span data-langNum="23">private investors are placed in an ironic situation where the more they focus on making profits,
+					the lower rate of return they end up with due to various individual, market, and environmental factors.</span></div>
+
+        <div class="hTile_3">
+            <div>
+                <img src="images/painpoint1.svg"/>
+						<span data-langNum="24">You are having a disadvantage of insufficient amount of time and investment know-how that you need to analyze the market and chart.
+							Furthermore, the rapidly-changing market trend makes it difficult for you to make rational investment decisions.</span>
+            </div>
+            <div>
+                <img src="images/painpoint2.svg"/>
+						<span data-langNum="25">Since there is no circuit break in place in the Cryptocurrency market, the market price tends to significantly fluctuate.
+							Also, the trade can occur 24 hour-a-day and the absence of relevant regulations allows big capitals to have a great deal of impact on the market.</span>
+            </div>
+            <div>
+                <img src="images/painpoint3.svg"/>
+                <span data-langNum="26">Investing through the chart analysis is an investment know-how more ideal for the stock market, and it is less likely to make an accurate prediction by solely relying on historical data.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="solution hCenter">
+        <div class="row"><span data-langNum="27">Solution</span></div>
+        <div class="row"><span data-langNum="28">We provide the following three-dimensional solution to maximize the value of your investment assets</span></div>
+
+        <div class="hTile">
+            <div>
+                <img src="images/solution1.svg" class="shadow"/>
+                <span data-langNum="29">AI investment system built around machine learning technology</span>
+						<span data-langNum="30">Rix adds the Cryptocurrency to its intrinsic asset portfolio shortly after ICO. AI investment machines invest these assets to continuously generate returns.
+							Rix is controlled by four artificial intelligence layers including RNN and CNN, which automates all investment related decisions such as the percentage of exchange, amount, and timing.
+							It is made up of numerous investment modules making profits independently from each other.
+							Rix aims to achieve the rate of return between 720%, the annual rate of return of Bitcoin, and 6000%, the highest return ever achieved by a professional private investor.
+							This 0.671%, when converted to the daily rate of return, may seem an unrealistic number to non-professional private investors at a glance but they may actually find it very conservatively targeted in light of the current Cryptocurrency market constantly
+							moving upward and running 24 hour a day let alone the fact that it is not obstructed by upper or lower limit of the price movement.</span>
+            </div>
+            <div>
+                <img src="images/solution2.svg" class="shadow"/>
+                <span data-langNum="31">ICD Designed for the Continuous Growth of Rix</span>
+						<span data-langNum="32">AI increases assets and Rix's self-developed ICD (Incentive Centered Design) distributes returns to participants.
+							It is a Cryptocurrency platform built around the mechanism where the overall profitability of the community is guaranteed by every individual member’s activity of seeking his own profit.
+							The concept behind ICD is a little difficult to explain. But, if I do so briefly, it is as follows:
+							There is an interesting experiment whose test subjects include a cleaner covering an extensive area of the street, crows looking for easier ways to get foods, and a trash can releasing foods in exchange for trashes. In this experiment, the crows keep bringing trashes to get foods while the cleaner regularly fills up the trash can with foods that will be used as rewards for the crows. In this way, both sides end up benefiting from each other.
+							Rix has been designed to ensure coin’s long-term survivability and profitability by providing a withdrawal service and thus minimizing the risk zone of the investment shortly after ICO.</span>
+            </div>
+            <div>
+                <img src="images/solution3.svg" class="shadow"/>
+                <span data-langNum="33">Transparent Management by DAO</span>
+                <span data-langNum="34">Rix transparently manages and distributes assets through DAO. In addition, Rix's DAO makes important decisions only through every participant’s vote. This can allow you to tailor Rix to best serve your investment needs through Rix’s voting system. Accordingly, Rix’s sole purpose is to help non-professional private investors realize profits.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="howitworks hCenter" id="rix">
+
+        <div class="row"><span data-langNum="35">RIX process overview</span></div>
+        <div class="row"><span data-langNum="36">Rix’s goal is to maximize the investment result through the use of the AI platform and protect private investors through the transparent management.</span></div>
+        <div class="row hTile"><img src="images/how1_3.svg"/></div>
+        <div class="row"><span data-langNum="37">The asset value of Rix, which individual investors become part of, has been designed to increase by two factors.</span></div>
+        <div class="row hTile"><img src="images/how2_2.svg"/></div>
+    </div>
+
+    <div class="system hCenter">
+        <div class="row"><span data-langNum="38">System</span></div>
+        <div class="row"><span data-langNum="39">Rix is the world's first investment and asset management platform holding an asset value and run by AI.</span></div>
+        <div class="row"><span data-langNum="40">The AI investment system is run by a hierarchical structure of four-layers and a 3-dimensional AI decision making engine based on neural network.</span></div>
+        <div class="row"><span data-langNum="41">4 Level  Layer AI Investment System</span></div>
+        <div class="row hTile"><img src="images/system1_3.svg"/></div>
+        <div class="row"><span data-langNum="42">AI 3-Dimension Decision Making  Engine</span></div>
+        <div class="row hTile"><img src="images/system2_3.svg"/></div>
+    </div>
+
+    <div class="roadmap" id="roadmap">
+        <div class="row"><span data-langNum="43">Road map</span></div>
+        <div class="row"><span data-langNum="44">Rix Road map</span></div>
+        <div class="row hTile"><img src="images/road1_3.svg"/></div>
+    </div>
+
+    <div class="ico hCenter" id="ico">
+        <div class="row"><span data-langNum="45">ICO</span></div>
+        <div class="row"><span data-langNum="46">RIX's ICO will be divided into Pre-sale and regular ICO and 5% bonus will be granted to those participating in Pre-sale.</span></div>
+        <div class="row"><span data-langNum="47">Rix is the coin holding an asset value, which means 5% bonus can translate into a considerable amount of reward compared to other coins not holding the asset value.</span></div>
+
+        <div class="hTile_2">
+            <div class="col">
+                <div><span data-langNum="48">Pre-sale</span></div>
+                <div><span data-langNum="49">Feb 2018</span></div>
+                <div><span data-langNum="50">ICO</span></div>
+                <div><span data-langNum="51">Mar-Apr 2018</span></div>
+                <div class="line"></div>
+                <div><span data-langNum="52">Token price (Rix per 1ETH)</span><span data-langNum="53" style="width:120px;">Minimum purchase</span><span data-langNum="54" style="width:30px;">0.1ETH</span></div>
+                <div><span data-langNum="55">Pre-sale–105,000 (pre-sale bonus-5%)</span><span data-langNum="56" style="width:120px;">Individual Cap</span><span data-langNum="57" style="width:30px;">100ETH</span></div>
+                <div><span data-langNum="58">ICO – 100,000</span><span data-langNum="59" style="width:120px;">Soft cap</span><span data-langNum="60" style="width:30px;">6,000ETH</span></div>
+                <div><span data-langNum="61">*70% of raised fund will be spent on buying BTC.</span><span data-langNum="62" style="width:120px;">Hard cap</span><span data-langNum="63" style="width:30px;">40,000ETH</span></div>
+            </div>
+            <div class="col">
+                <img src="images/ico1_3.svg"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="token hCenter">
+        <div class="row"><span data-langNum="64">Token and fund distribution</span></div>
+        <div class="row"><span data-langNum="65">Rix buys and deposit key cryptocurrencies such as BTC as intrinsic assets using 70% of the ICO funds raised.</span></div>
+        <div class="row"><span data-langNum="66">All undisclosed quantities except advisory, marketing, bounty and developers will be used on air drop.</span></div>
+
+        <div class="hTile_3">
+            <div>
+                <img src="images/token1.svg" class="hTile_3_img1"/>
+            </div>
+            <div>
+                <img src="images/token2.svg" class="hTile_3_img2"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="team team_bg">
+        <div class="hTile">
+            <img src="images/logo.svg" class="logo"/>
+        </div>
+    </div>
+
+    <div class="ourteam hCenter" id="ourteam">
+        <div class="row"><span data-langNum="68">Our Team</span></div>
+        <div class="row"><span data-langNum="69">Core Members</span></div>
+        <div class="hTile">
+            <div class="member">
+                <img src="images/portrait/GregoryKim_b.png"/>
+                <div><span>Gregory Kim</span></div>
+                <div><span>Founder, AI Designer,Developer</span></div>
+                <div><span>Customer's Behavial-Analysis by RF Flag<br/>
+							Indoor Location Detecting System by RF RSSI Analysis<br/>
+							AI Investment Portfolio: RL Based on Risk Assessment<br/>
+							Real-Time Application of Risk Factor Based on NLP <br/>
+							Analysis of Detected Location Data on Special Ships of HYUNDAI<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/DongminSin_b.png"/>
+                <div><span>Dongmin Shin</span></div>
+                <div><span>Co-founder, Architect<br/><br/><br/><br/><br/><br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/JoonheeKim_b.png"/>
+                <div><span>Joonhee Kim</span></div>
+                <div><span>AI Developer</span></div>
+                <div><span>Customer's Behavial-Analysis by RF Flag<br/>
+							Simulation of Population Model about Pandemic Disease<br/>
+							Indoor Location Detecting System by RF RSSI Analysis<br/>
+							AI Investment Portfolio: RL Based on Risk Assessment<br/>
+							Real-Time Application of Risk Factor Based on NLP <br/>
+							Analysis of Detected Location Data on Special Ships of HYUNDAI</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/MichelleLee_b.png"/>
+                <div><span>Michelle Lee</span></div>
+                <div><span>Developer</span></div>
+                <div><span>20 Years of IT consulting and enterpise system development<br/>
+							Global Fintech Service Tech Lead<br/>
+							Worked at Samsung, KT, KAIST, Hyundai Projects<br/>
+							<br/><br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/KijaeLee_b.png"/>
+                <div><span>Kijae Lee</span></div>
+                <div><span>Developer</span></div>
+                <div><span>Meiji Japan Nutrition Management Sytem<br/>
+							TSHUKUBA EXPRESS Railway Managemenat System<br/>
+							Hyundai Oilbank OSM<br/>
+							Onse KT Snowman Portal<br/>
+							YTpartners Estate Portal<br/>
+							SKtelecom iMap 2.0</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/SangseokLee_b.png"/>
+                <div><span>Sangseok Lee</span></div>
+                <div><span>Developer</span></div>
+                <div><span>KRCC Pension Management System<br/>
+							KRCC Fund Accounting System<br/>
+							Smilegate Gamezone<br/>
+							NIPA SW Engineering Information Storage<br/>
+							SKTelecom CMS<br/>
+							SKTelecom iMAP 2.0<br/>
+						</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/TaehunKim_b.png"/>
+                <div><span>Taehun Kim</span></div>
+                <div><span>Developer</span></div>
+                <div><span>SKTelecom IMS<br/>
+							SKTelecom A-DICT REDIS<br/>
+							SKTelecom PSS<br/>
+							SKTelecom Legacy NMS Platform Project<br/>
+							SKTelecom ODIN<br/>
+							SKTelecom SRAS</span></div>
+            </div>
+        </div>
+        <div class="row"><span data-langNum="74">Advisory Board</span></div>
+        <div class="hTile advisory">
+            <div class="member">
+                <img src="images/portrait/HwibumSong_b.png"/>
+                <div><span>Hwibum Song</span></div>
+                <div><span>DB/Block-Chain Expert</span></div>
+                <div><span>Executives of Oracle Korea,LTD<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/SuheeKim_b.png"/>
+                <div><span>Suhee Kim</span></div>
+                <div><span>Lawyer, Certified Public Accountant</span></div>
+                <div><span>Corporate Litigation Expert<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/HoyeonLee_b.png"/>
+                <div><span>Hoyeon Lee</span></div>
+                <div><span>IBM Systems Technical Specialist</span></div>
+                <div><span>IBM Korea, LTD<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/Yongkwon_b.png"/>
+                <div><span>YongKwon Rick Choi</span></div>
+                <div><span>IBM Hybrid Cloud Technical Specialist</span></div>
+                <div><span>API/Blockchain Expert<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/Mrrix_b.png"/>
+                <div><span>Mr. Rix</span></div>
+                <div><span>Big data expert</span></div>
+                <div><span>Rix supporter<br/><br/></span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ourteam hCenter kr" id="ourteam-kr" style="display:none;">
+        <div class="row"><span>Our Team</span></div>
+        <div class="row"><span>Core Members</span></div>
+
+        <div class="hTile">
+            <div class="member">
+                <img src="images/portrait/GregoryKim_b.png"/>
+                <div><span>김권영 Gregory Kim</span></div>
+                <div><span>Founder, AI 개발자, AI디자이너</span></div>
+                <div><span>RF Flag 기반 소비자 행동분석<br/>
+							자연어 처리 기반 투자대상별 risk factor 생성<br/>
+							AI 투자 포트폴리오: risk assessment에 근간한 강화학습<br/>
+							RF RSSI 해석 실내위치 탐지 시스템 개발 <br/>
+							현대중공업 특수선 내 작업위치 분석 도구 개발<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/DongminSin_b.png"/>
+                <div><span>신동민 Dongmin Shin</span></div>
+                <div><span>Co-founder, 시스템 아키텍트<br/><br/><br/><br/><br/><br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/JoonheeKim_b.png"/>
+                <div><span>김준희 Joonhee Kim</span></div>
+                <div><span>AI 개발자</span></div>
+                <div><span>RF Flag 기반 소비자 행동분석<br/>
+							전염병 발생 및 확산 nonlinear ODE 인구모델 설계<br/>
+							자연어 처리 기반 투자대상별 risk factor 생성<br/>
+							AI 투자 포트폴리오: risk assessment에 근간한 강화학습<br/>
+							RF RSSI 해석 실내위치 탐지 시스템 개발 <br/>
+							현대중공업 특수선 내 작업위치 분석 도구 개발</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/MichelleLee_b.png"/>
+                <div><span>이은성 Michelle Lee</span></div>
+                <div><span>개발자</span></div>
+                <div><span>IT 컨설팅 및 기업 시스템 개발 경력 20년<br/>
+							글로벌 핀테크 서비스 개발리드<br/>
+							삼성,KT,KAIST,현대 기업 프로젝트 완수<br/>
+							<br/><br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/KijaeLee_b.png"/>
+                <div><span>이기재 Kijae Lee</span></div>
+                <div><span>개발자</span></div>
+                <div><span>Meiji제과 영양관리시스템 개발<br/>
+							TSHUKUBA EXPRESS 역무관리 시스템 개발<br/>
+							현대오일뱅크 OSM 개발<br/>
+							온세 KT Snowman Portal 개발<br/>
+							와이티파트너스 부동산 Portal 개발<br/>
+							SK텔레콤 iMAP 2.0 개발</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/SangseokLee_b.png"/>
+                <div><span>이상석 Sangseok Lee</span></div>
+                <div><span>개발자</span></div>
+                <div><span>농지연금 시스템 개발<br/>
+							농지관리기금 국가회계시스템 개발<br/>
+							스마일게이트 게임존 개발<br/>
+							소프트웨어공학센터 SW사업정보 저장소 개발<br/>
+							SK텔레콤 CMS 유지보수<br/>
+							SK텔레콤 iMAP 2.0 개발<br/>
+						</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/TaehunKim_b.png"/>
+                <div><span>김태훈 Taehun Kim</span></div>
+                <div><span>개발자</span></div>
+                <div><span>SK텔레콤 IMS 개발<br/>
+							SK텔레콤 A-DICT REDIS 개발<br/>
+							SK텔레콤 PSS 고도화<br/>
+							SK텔레콤 Legacy NMS Platform 프로젝트 참여<br/>
+							SK텔레콤 ODIN 개발<br/>
+							SK텔레콤 SRAS 개발</span></div>
+            </div>
+        </div>
+        <div class="row"><span>Advisory Board</span></div>
+        <div class="hTile advisory">
+            <div class="member">
+                <img src="images/portrait/HwibumSong_b.png"/>
+                <div><span>송휘범 Hwibum Song</span></div>
+                <div><span>데이터베이스/블록체인 전문가</span></div>
+                <div><span>한국 ORACLE 이사<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/SuheeKim_b.png"/>
+                <div><span>김수희 Suhee Kim</span></div>
+                <div><span>변호사, 공인회계사</span></div>
+                <div><span>기업소송전문<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/HoyeonLee_b.png"/>
+                <div><span>이호연 Hoyeon Lee</span></div>
+                <div><span>Cloud machine 전문가</span></div>
+                <div><span>한국 IBM<br/><br/></span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/Yongkwon_b.png"/>
+                <div><span>최용권 Yongkwon Rick Choi</span></div>
+                <div><span>IBM 아키텍트</span></div>
+                <div><span>하이브리드클라우드(블록체인파트)실장<br/>
+						블록체인 전문가</span></div>
+            </div>
+            <div class="member">
+                <img src="images/portrait/Mrrix_b.png"/>
+                <div><span>Mr. Rix</span></div>
+                <div><span>빅데이터 전문가</span></div>
+                <div><span>Rix 서포터<br/><br/></span></div>
+            </div>
+        </div>
+    </div>
+
+     <div class="inpress">
+        <div class="hCenter">
+            <div class="row"><span>Rix in Press</span></div>
+            <div class="hTile">
+                <div class="press">
+                    <a href="http://www.dtoday.co.kr/news/articleView.html?idxno=261949" target="_blank">
+                        <img class="inpress_img" src="images/press/press1.jpg"/></a>
+                    <div><span><a href="http://www.dtoday.co.kr/news/articleView.html?idxno=261949" target="_blank">
+                        [일간투데이 홍정민 기자] 최근 4차산업혁명 시대를 맞아 관련 핵심기술 중 하나인 인공지능(AI)이 다양한 산업분야에 접목되고 있다. 이젠 가상통화에도 AI가 접목됐다고 해서 화제를 모으고 있다.
+                        영국령 지브롤터 소재 릭스파운데이션은 가상통화 AI 투자 플랫폼 '릭스(RIX)'를 공개했다고 23일 밝혔다.
+                        릭스는 머신러닝을 기반으로 하는 AI 투자머신을 이용한 투자 플랫폼으로, 소액 개인 투자자의 이익을 지켜주기 위해 만들어졌다...
+                    </a></span></div>
+
+                    <a href="http://www.dtoday.co.kr/news/articleView.html?idxno=261949" target="_blank">
+                    <img class="link_img" src="images/btn_more.svg"/></a>
+                </div>
+                <div class="press">
+                    <a href="http://m.datanet.co.kr/news/articleView.html?idxno=119987" target="_blank">
+                        <img class="inpress_img" src="images/press/press2.jpg"/></a>
+                    <div><span><a href="http://m.datanet.co.kr/news/articleView.html?idxno=119987" target="_blank">
+                        영국령 지브롤터 소재 ‘릭스파운데이션(대표 김권영)은 소액 개인 투자자들을 위한 암호화폐 AI 투자 플랫폼 릭스(RIX)를 공개했다.
+                        릭스는 머신러닝을 기반으로 하는 AI 투자머신을 이용한 투자 플랫폼으로, 소액 개인 투자자의 이익을 지켜주기 위해 만들어졌다. 릭스는 위험 분산을 위한 인덱싱 투자 기법인 ‘Rainbow Option IndeX’의 약어로, 레인보우 인덱스 옵션은 우상향 시장의 평균 수익률을 추구하기 위한 옵션 투자 전략을 말한다...
+                    </a></span></div>
+                    <a href="http://m.datanet.co.kr/news/articleView.html?idxno=119987" target="_blank">
+                        <img class="link_img" src="images/btn_more.svg"/></a>
+                </div>
+                <div class="press">
+                    <a href="http://www.etnews.com/20180304000070" target="_blank">
+                        <img class="inpress_img" src="images/press/press3.jpg"/></a>
+                    <div><span><a href="http://www.etnews.com/20180304000070" target="_blank">
+                        KAIST융합교육연구센터(대표 김성호)와 릭스재단(의장 김권영)은 미래형 첨단 기술과 융합교육 연구 상호협력을 위한 양해각서(MOU)를 교환했다고 4일 밝혔다.
+                        두 기관은 △범용 인공지능(AI) △블록체인 융합 △블록체인과 AI 융합을 통한 교육과 산업 분야에서 전방위협력체계를 갖추기로 했다. 4차 산업혁명 이음새가 될 미래 기술 교육화 과정도 추진하는 방안을 검토한다...<br/><br/>
+                   </a></span></div>
+                    <a href="http://www.etnews.com/20180304000070" target="_blank">
+                        <img class="link_img" src="images/btn_more.svg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="notice kr">
+         <div class="contents">
+             <div class="row"><span>Notice</span></div>
+             <div class="hTile" style="font-size: 17px;">
+                 <ul style="background-color: #ffffff; padding: 10px 30px 10px 30px">
+                     <li style="list-style: initial;">
+                         <a href="https://medium.com/@contact_1269/%EA%B3%B5%EC%A7%80-%ED%95%9C%EA%B8%80-%EB%B0%B1%EC%84%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-1f9d7c55bdde"
+                            target="_blank" style="color: blue;">2018.02.26_한글 백서가 업데이트 되었습니다(V.2.0)</a></li>
+                     <li style="list-style: initial;">
+                         <a href="https://medium.com/@contact_1269/%EA%B3%B5%EC%A7%80-%ED%95%9C%EA%B8%80-%EB%B0%B1%EC%84%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-d327d4d8f6cd"
+                            target="_blank" style="color: blue;">2018.03.05_한글 백서가 업데이트 되었습니다(V.2.01)</a></li>
+                     <li style="list-style: initial;">
+                         <a href="https://medium.com/@contact_1269/%EA%B3%B5%EC%A7%80-%ED%95%9C%EA%B8%80-%EB%B0%B1%EC%84%9C%EA%B0%80-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%90%98%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-2dda03a7c075"
+                            target="_blank" style="color: blue;">2018.03.19_한글 백서가 업데이트 되었습니다(V.2.02)</a></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+     <div class="notice en">
+         <div class="contents">
+             <div class="row"><span>Notice</span></div>
+             <div class="hTile" style="font-size: 17px;">
+                 <ul style="background-color: #ffffff; padding: 10px 30px 10px 30px">
+                     <li style="list-style: initial;">
+                         <a href="https://medium.com/@contact_1269/notice-the-english-white-paper-has-been-updated-11a08af63f07"
+                            target="_blank" style="color: blue;">2018.03.19_The English White Paper has been updated(V.2.02)</a></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+     <div class="partners" style="display: inherit;">
+         <div class="contents">
+             <div class="row"><span>Partners</span></div>
+             <div class="inpress_img" style="font-size: 17px;">
+                 <a href="https://astropla.net/" target="_blank">
+                     <img src="images/partners/partners1.png"/></a>
+                 <a href="http://smart.kaist.ac.kr/" target="_blank">
+                     <img src="images/partners/partners2.png"/></a>
+             </div>
+        </div>
+    </div>
+    <div class="contactus hCenter">
+        <div class="row"><span data-langNum="70">Contact Us</span></div>
+        <div class="row"><span><a href="mailto:contact@rix.foundation">contact@rix.foundation</a></span></div>
+        <div class="hTile">
+            <div class="icon"><a href="http://t.me/rixfoundation" target="_blank"><img src="images/sns_1.svg"/></a></div>
+            <div class="icon"><a href="mailto:contact@rix.foundation"><img src="images/sns_2.svg"/></a></div>
+            <div class="icon"><a href="https://twitter.com/FoundationRix" target="_blank"><img src="images/sns_3.svg"/></a></div>
+            <div class="icon"><a href="https://open.kakao.com/o/gvoe6LF" target="_blank"><img src="images/sns_5.svg"/></a></div>
+            <div class="icon"><a href="https://github.com/rixfoundation/rix-web" target="_blank"><img src="images/sns_6.svg"/></a></div>
+        </div>
+        <div class="row">
+            <a href="/private.html" target="_blank" data-langNum="71"><span>Private policy</span></a>
+            <a href="/terms.html" target="_blank" data-langNum="72"><span>Terms&amp;Condition</span></a>
+            <a href="/mediakit.zip" target="_blank" data-langNum="73"><span>Media Kit</span></a>
+        </div>
+        <div class="row"><span>Copyrightⓒ2018 Rix. All rights reserved.</span></div>
+    </div>
+</div>
+<div class="slideTop">
+    <img src="images/btn_top.svg"/>
+</div>
+<div class="dim-layer">
+    <div class="dimBg"></div>
+    <div class="div-popup"></div>
+</div>
+<!--<div class="mask" style="visibility:hidden;"></div>-->
+
+<div class="hidden">
+    <input type="hidden" name="email"/>
+    <input type="hidden" name="walletAddress"/>
+</div>
+</body>
+<script>
+    $(function () {
+        document.body.style.zoom=1.1;
+
+        $('[name=language]').val('kr').trigger('change');
+
+        var interval = function () {
+            $.get( "stat", function( data ) {
+                $('.text_5 .fundRasing').html(data.fund + "ETH");
+                $('.text_5 .rixer').html(data.rixer);
+            });
+        };
+
+        interval();
+        setInterval(interval, 300000);
+
+//        showPopup();
+
+        $(window).on('load', function () {
+            var labels = ['days', 'hours', 'minutes', 'seconds'],
+                    nextYear = new Date('2018-04-16T00:00:00Z'),
+                    template = _.template($('.timer-template').html()),
+                    currDate = '00:00:00:00',
+                    nextDate = '00:00:00:00',
+                    parser = /([0-9]{2})/gi,
+                    $example = $('.countdown-container');
+
+            // Parse countdown string to an object
+            function strfobj(str) {
+                var parsed = str.match(parser), obj = {};
+                labels.forEach(function (label, i) {
+                    obj[label] = parsed[i]
+                });
+                return obj;
+            }
+
+            // Return the time components that diffs
+            function diff(obj1, obj2) {
+                var diff = [];
+                labels.forEach(function (key) {
+                    if (obj1[key] !== obj2[key]) {
+                        diff.push(key);
+                    }
+                });
+                return diff;
+            }
+
+            // Build the layout
+            var initData = strfobj(currDate);
+            labels.forEach(function (label, i) {
+                $example.append(template({
+                    curr: initData[label],
+                    next: initData[label],
+                    label: label
+                }));
+
+            });
+            // Starts the countdown
+            $example.countdown(nextYear, function (event) {
+                var newDate = event.strftime('%D:%H:%M:%S'), data;
+                if (newDate !== nextDate) {
+                    currDate = nextDate;
+                    nextDate = newDate;
+                    // Setup the data
+                    data = {
+                        'curr': strfobj(currDate),
+                        'next': strfobj(nextDate)
+                    };
+                    // Apply the new values to each node that changed
+                    diff(data.curr, data.next).forEach(function (label) {
+                        var selector = '.%s'.replace(/%s/, label),
+                                $node = $example.find(selector);
+                        // Update the node
+                        $node.removeClass('flip');
+                        $node.find('.curr').text(data.curr[label]);
+                        $node.find('.next').text(data.next[label]);
+                        // Wait for a repaint to then flip
+                        _.delay(function ($node) {
+                            $node.addClass('flip');
+                        }, 50, $node);
+                    });
+                }
+            });
+        });
+
+        $(window).on('resize', function (e) {
+            reSize();
+        });
+
+        $('.ourteam .member img').on('mouseover', function () {
+            if ($(this).attr('src').lastIndexOf('logo.svg') > 0) {
+                return;
+            } else {
+                $(this).attr('src', $(this).attr('src').replace('_b.png', '.png'));
+            }
+        });
+
+        $('.ourteam .member img').on('mouseout', function () {
+            if ($(this).attr('src').lastIndexOf('logo.svg') > 0) {
+                return;
+            } else {
+                $(this).attr('src', $(this).attr('src').replace('.png', '_b.png'));
+            }
+        });
+
+        $('body').on('scroll', function () {
+            window._yP = $(this).scrollTop() - ($(this).height() / 100 * 70);
+
+            if (window._yP < 0)
+                window._yP = 0;
+
+            $('.slideTop').animate({'top': window._yP}, {duration: 500, easing: 'linear', queue: false});
+        });
+
+        $('.slideTop').on('click', function () {
+            $('body').scrollTop(0);
+        });
+
+        $(window).trigger('resize');
+
+//			$(window).unbind('touchmove', handler);
+
+        $('.btn.pay, .detail .text_4').on('click', function () {
+            var lang = $('[name=language]').val();
+//            $('.dim-layer').fadeIn();
+            if(lang == 'kr') {
+//                goStep("1");
+                alert("ICO가 아직 시작되지 않았습니다.");
+            } else {
+                alert("ICO not opened yet.");
+//                goStep("1e");
+            }
+        });
+
+        $('.dimBg').on('click', function () {
+            $('.dim-layer').fadeOut();
+            $('.div-popup').empty();
+        });
+    });
+
+
+    /**
+     * setLanguage
+     * use $.lang[currentLanguage][languageNumber]
+     */
+    function setLanguage(currentLanguage) {
+        // console.log('setLanguage', arguments);
+        $('[data-langNum]').each(function() {
+            var $this = $(this);
+            $this.html($.lang[currentLanguage][$this.data('langnum')]);
+        });
+    }
+
+    // 언어 변경시, 처리로직
+    $('[name=language]').on('change', function() {
+        var lang = $(this).val();
+        if(lang == 'kr'){
+            $('.link-whitepaper').attr('href', '/RIX_pre-sale_whitepaper_kr_v2.02.pdf');
+            $('.ourteam').attr('href', '#ourteam-kr');
+            $('#ourteam').hide();
+            $('#ourteam-kr').show();
+            $('.buy.content').hide();
+            $('.buy.content-kr').show();
+            $('.notice.en').hide();
+            $('.notice.kr').show();
+            $('.inpress').show();
+        } else {
+            $('.link-whitepaper').attr('href', '/RIX_pre-sale_whitepaper_en_v2.02.pdf');
+            $('.ourteam').attr('href', '#ourteam');
+            $('#ourteam').show();
+            $('#ourteam-kr').hide();
+            $('.buy.content').show();
+            $('.buy.content-kr').hide();
+            $('.notice.en').show();
+            $('.notice.kr').hide();
+            $('.inpress').hide();
+        }
+        reSize();
+        setLanguage(lang);
+    });
+
+    function reSize() {
+        var lang = $('[name=language]').val();
+        if(lang == 'kr') {
+            $('.hTile_3_img1').attr('src', 'images/token1k.svg');
+            $('.hTile_3_img2').attr('src', 'images/token2k.svg');
+            if ($('body').width() > 1200) {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_3k.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_2k.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_3.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_3.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_3k.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_3k.svg");
+            } else if ($('body').width() > 830) {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_2k.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_2k.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_2.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_2.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_2k.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_2k.svg");
+            } else {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_1k.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_1k.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_1.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_1.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_1k.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_2k.svg");
+            }
+        } else {
+            $('.hTile_3_img1').attr('src', 'images/token1.svg');
+            $('.hTile_3_img2').attr('src', 'images/token2.svg');
+            if ($('body').width() > 1200) {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_3.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_2.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_3.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_3.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_3.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_3.svg");
+            } else if ($('body').width() > 830) {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_2.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_2.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_2.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_2.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_2.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_2.svg");
+            } else {
+                $('.howitworks .row:eq(2) img').attr('src', "images/how1_1.svg");
+                $('.howitworks .row:eq(4) img').attr('src', "images/how2_1.svg");
+                $('.system .row:eq(4) img').attr('src', "images/system1_1.svg");
+                $('.system .row:eq(6) img').attr('src', "images/system2_1.svg");
+                $('.roadmap .row:eq(2) img').attr('src', "images/road1_1.svg");
+                $('.ico .hTile_2 .col:eq(1) img').attr('src', "images/ico1_2.svg");
+            }
+        }
+    }
+
+    function goStep(index) {
+        $('.div-popup').empty();
+        $('.div-popup').load('step' + index + '.html');
+//        fnPopup();
+    }
+
+    function goStepContents(index) {
+        var email = $('.layer-popup.step2 input[name=email]').val();
+        var walletAddress = $('.layer-popup.step2 input[name=walletAddress]').val();
+
+        $('.div-popup').empty();
+        $('.div-popup').load('step' + index + '.html');
+//        fnPopup();
+        $('.hidden input[name=email]').val(email);
+        $('.hidden input[name=walletAddress]').val(walletAddress);
+    }
+
+    function showPopup() {
+        window.open("popup.html", "notice", "width=400, height=300, left=0, top=0, toolbar=no");
+    }
+
+
+</script>
+</html>
